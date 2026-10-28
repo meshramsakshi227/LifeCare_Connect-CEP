@@ -1,0 +1,23 @@
+LifeCare Connect - Requested Update
+===================================
+
+Demo credentials:
+Admin  : adm@lifecare.com / 123
+Staff  : stf@lifecare.com / 123
+Family : fam@lifecare.com / 123
+
+Family privacy:
+- Removed whole-home medical/medicine visibility from Family Dashboard.
+- No separate Permitted Resident Dashboard.
+- Family must enter a resident's complete name manually to request access.
+- Resident names are not displayed to Family before approval.
+- Admin receives resident-specific permission requests in Notifications.
+- Each resident requires separate Admin approval.
+- Only one approved resident is visible at a time.
+- New approval replaces the previous permitted resident.
+- After approval, Family can view only that resident's medical needs, results,
+  disease history, report analysis, and booking information.
+- General Family access remains limited to Dashboard, Ashram Information,
+  Monthly Seminars, Timetable, Booking Notifications, and Permitted Resident.
+
+Other application modules were left unchanged.

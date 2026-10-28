@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+  LifeCare Connect - Healthcare Website
+  Copyright (c) 2026 LifeCare Connect
+  College Project - P. R. Pote Patil College of Engineering and Management, Amravati
+  All rights reserved. This code is not to be copied without permission.
+-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeCare Connect | Old Age Home Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <!-- LOGIN -->
+  <section id="loginPage" class="login-page">
+    <div class="login-card">
+      <div class="brand">
+        <div class="brand-icon">❤</div>
+        <h1>LifeCare Connect</h1>
+        <p>Medicine Alert & Medical Survey System</p>
+        <small>For Old Age Homes</small>
+      </div>
+
+      <h2>Select Login Role</h2>
+      <div class="role-grid">
+        <button class="role-btn active" data-role="admin"><span>👨‍💼</span>Admin</button>
+        <button class="role-btn" data-role="staff"><span>👩‍⚕️</span>Caretaker / Staff</button>
+        <button class="role-btn" data-role="family"><span>👨‍👩‍👧</span>Family</button>
+        <button class="role-btn" data-role="visitor"><span>🧑</span>Visitor / Student</button>
+      </div>
+
+      <form id="loginForm" autocomplete="off" data-form-type="other">
+        <label id="emailLabel">Email Address</label>
+        <input id="loginEmail" type="text" name="login_identifier" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="adm" required>
+
+        <div id="passwordBox">
+          <label>Password</label>
+          <input id="loginPassword" type="password" name="access_key" autocomplete="one-time-code" autocapitalize="none" spellcheck="false" data-lpignore="true" data-1p-ignore="true" placeholder="Enter password">
+        </div>
+
+        <div id="familyConsentBox" class="hidden consent-box">
+          <label>
+            <input id="familyConsent" type="checkbox">
+            I confirm that I am an authorized family member and agree to receive/view the resident's health information.
+          </label>
+        </div>
+
+        <button class="primary-btn" type="submit">Login</button>
+        <p id="loginMessage" class="login-message"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- APP -->
+  <section id="appPage" class="app hidden">
+    <aside class="sidebar">
+      <div class="side-brand">
+        <div class="mini-icon">❤</div>
+        <div>
+          <b>LifeCare</b>
+          <span>Connect</span>
+        </div>
+      </div>
+
+      <div class="user-card">
+        <div id="sideAvatar" class="avatar">A</div>
+        <div>
+          <b id="sideUserName">Admin</b>
+          <small id="sideRole">Administrator</small>
+        </div>
+      </div>
+
+      <nav id="sideNav"></nav>
+
+      <button id="logoutBtn" class="logout-btn">↪ Logout</button>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2 id="pageTitle">Dashboard</h2>
+          <p id="pageSubtitle">Shree Gadge Maharaj Vrudhashram, Amravati</p>
+        </div>
+        <div class="top-actions">
+          <span id="today"></span>
+          <button class="notification-btn" onclick="showSection('notifications')">🔔 <span id="notificationCount">0</span></button>
+        </div>
+      </header>
+
+      <div id="content" class="content"></div>
+    </main>
+  </section>
+
+  <script src="script.js"></script>
+
+  <footer style="text-align:center;padding:18px 12px;background:#0f1f3d;color:#fff;font-size:13px;line-height:1.6;border-top:1px solid rgba(255,255,255,.12);">
+    © 2026 LifeCare Connect | All Rights Reserved
+  </footer>
+</body>
+</html>
