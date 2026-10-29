@@ -1,4 +1,13 @@
-# LifeCare Connect - Updated Prototype
+# LifeCare Connect - Prototype
+
+**Live Prototype:** https://relaxed-chebakia-c41aab.netlify.app
+
+## Demo accounts
+Admin: adm / 123
+Staff: stf / 123
+Family: fam / 123
+Visitor: any valid email / no password
+
 
 ## Latest updates
 - Added Emergency Support to Admin and Staff dashboards with resident search, emergency alert workflow, medical summary, report saving, status tracking and emergency history.
@@ -22,12 +31,6 @@
 - After approval, the family member can see only that permitted resident's private information.
 - Family access is limited to one permitted resident at a time.
 - Included LifeCare_database.sql for a PostgreSQL/Netlify Database setup.
-
-## Demo accounts
-Admin: adm / 123
-Staff: stf / 123
-Family: fam / 123
-Visitor: any valid email / no password
 
 
 ## Family resident privacy workflow
