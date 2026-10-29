@@ -24,12 +24,11 @@
 - Included LifeCare_database.sql for a PostgreSQL/Netlify Database setup.
 
 ## Demo accounts
-Admin: adm@lifecare.com / 123
-Staff: stf@lifecare.com / 123
-Family: fam@lifecare.com / 123
+Admin: adm / 123
+Staff: stf / 123
+Family: fam / 123
 Visitor: any valid email / no password
 
-The short login IDs `adm`, `stf`, and `fam` are also accepted for the three demo accounts.
 
 ## Family resident privacy workflow
 - Family Dashboard does not show whole-home medical/medicine information.
