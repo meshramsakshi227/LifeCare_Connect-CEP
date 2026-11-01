@@ -31,3 +31,11 @@ Future Enhancements
 - Doctor availability management
 - Improved patient dashboard
 - Additional authentication and security features
+
+*Live Prototype: https://relaxed-chebakia-c41aab.netlify.app*
+
+**Demo Accounts
+Admin: adm / 123
+Staff: stf / 123
+Family: fam / 123
+Visitor: Any valid email / No password**
